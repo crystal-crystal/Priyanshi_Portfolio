@@ -1,0 +1,29 @@
+/* src/Toolbar.css */
+
+.toolbar {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .toolbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .toolbar-item {
+    margin: 0 15px;
+  }
+  
+  .toolbar-item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .toolbar-item a:hover {
+    text-decoration: underline;
+  }
+  
